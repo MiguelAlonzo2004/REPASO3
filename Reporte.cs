@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace REPASO3
 {
-    class Propiedad
+    class Reporte
     {
+        string nombre;
+        string apellido;
         int nocasa;
-        int dpi;
         double cuota;
 
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Apellido { get => apellido; set => apellido = value; }
         public int Nocasa { get => nocasa; set => nocasa = value; }
-        public int Dpi { get => dpi; set => dpi = value; }
         public double Cuota { get => cuota; set => cuota = value; }
     }
 }
