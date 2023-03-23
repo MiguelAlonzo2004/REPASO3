@@ -12,6 +12,10 @@ namespace REPASO3
 {
     public partial class Form1 : Form
     {
+        Propietario propietario = new Propietario();
+        Propiedad propiedad = new Propiedad();
+        List<Propietario> propietarios = new List<Propietario>();
+        List<Propiedad> propiedades = new List<Propiedad>();
         public Form1()
         {
             InitializeComponent();
